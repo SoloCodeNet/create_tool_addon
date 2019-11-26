@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/solo_grid/solo_addon.gd" type="Script" id=1]
+[ext_resource path="res://addons/solo_grid/icon.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sologrid" type="Node2D" parent="."]
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_icon": ExtResource( 2 )
+}
+forme = 1
+debug_mode = true
+cut = Vector2( 2, 2 )
+tile_size = 64
+nbr_width = 16
+color = Color( 1, 0, 0, 1 )
